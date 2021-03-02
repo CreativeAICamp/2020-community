@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Sniglet", cursive;
+    background-image: url("https://cdn.glitch.com/b00bdd89-66e3-4b3d-ba32-f518f73b04cf%2FBackground.svg?v=1614667776115");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .menubar {
+    background: url(img/Head_1.png)no-repeat;
+ 
+    position: fixed;
+   left: 326px;
+    width: 976px;
+    height: 921px;
+  }
+
+  .container {
+    width: 1284px;
+  }
+  .menubar ul.menu {
+    list-style: none;
+    float: right;
+    margin-right: 101px;
+    margin: 0;
+    font-size: 35px;
+    font-weight: normal;
+    padding-top: 7px;
+  }
+  .menubar ul.menu li{
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+  }
+  
+  .container img{
+    height: 451px;
+    width: 660px;
+    margin-right: -100px;
+    margin-top: 206px;
+    
+  }
+  
+  .menubar ul.menu li a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent ;
+    padding-bottom: 20px ;
+    transition: all 0.3s ease;
+  }
+
