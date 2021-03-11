@@ -4,49 +4,201 @@ body {
   font-family: "Sniglet", cursive;
   background-image: url("https://cdn.glitch.com/b00bdd89-66e3-4b3d-ba32-f518f73b04cf%2FBackground.svg?v=1614667776115");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-.menubar {
-  background: url(img/Head_1.png)no-repeat;
-
-  position: fixed;
- left: 326px;
-  width: 976px;
-  height: 921px;
+  background-size: 100%;
 }
 
-.container {
-  width: 1000px;
-}
-.menubar ul.menu {
+.nav ul {
   list-style: none;
-  float: right;
-  margin-right: 101px;
-  margin: 0;
-  font-size: 35px;
-  font-weight: normal;
-  padding-top: 7px;
-}
-.menubar ul.menu li{
-  float: right;
   text-align: right;
-  margin-right: 30px;
+  padding: 0;
+  margin: 0;
 }
 
-.container img{
-  height: 451px;
-  width: 660px;
-  margin-right: -100px;
-  margin-top: 206px;
+.nav li {
+  font-size: 1.2em;
+  line-height: 40px;
+  text-align: left;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+  padding-left: 15px;
+  border-bottom: 1px solid #888;
+  transition: .3s;
+  font-family: SeoulNamsan CM;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  margin-right: 28px;
+}
+
+.nav a:hover {
+  background-color: #FFFFFF;
+  color: #6B6B6B;
+}
+@media screen and (min-width: 650px) {
+  .nav li {
+      width: 130px;
+      border-bottom: none;
+      height: 80px;
+      line-height: 1.4em;
+      display: inline-block;
+      margin-right: -4px;
+  }
+  .nav a{
+      border-bottom: none;
+      margin-top: 30px;
+  }
+  .nav > ul > li {
+      text-align: center;
+  }
+  .nav > ul > li > a {
+      padding: 0;
+  }
+}
+
+.im .grey {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  left: 13px;
+  top: 17px;
+}
+
+.im .girl {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+  bottom: 0.56%;
+  width: 45%;
+}
+.main
+{
+  position: absolute;
+  width: 551px;
+  height: 240px;
+  left: 113px;
+  top: 412px;
+
+  font-family: SeoulNamsan CEB;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 72px;
+
+  color: #787878;
+}
+
+.sec
+{
+  position: absolute;
+  width: 390px;
+  height: 130px;
+  left: 113px;
+  top: 631px;
+
+  font-family: SeoulNamsan CM;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+
+  color: #787878;
+}
+
+.cus
+{
+  position: absolute;
+  width: 295px;
+  height: 86px;
+  left: 144px;
+  top: 1108px;
+
+  font-family: SeoulNamsan CEB;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 72px;
+
+  color: #787878;
+}
+
+.eve
+{
+  position: absolute;
+  width: 390px;
+  height: 32px;
+  left: 97px;
+  top: 1186px;
+
+  font-family: SeoulNamsan CM;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+
+  color: #787878;
+}
+
+.pain{
+  position: absolute;
+  width: 308px;
+  height: 81px;
+  left: 769px;
+  top: 1034px;
+  
+  font-family: SeoulNamsan CEB;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 72px;
+  
+  color: #797979;
+}
+
+.reason{
+  position: absolute;
+  width: 491px;
+  height: 37px;
+  left: 677px;
+  top: 1115px;
+  
+  font-family: SeoulNamsan CM;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  
+  color: #787878;
   
 }
 
-.menubar ul.menu li a {
-  text-decoration: none;
-  color: white;
-  border-bottom: 2px solid transparent ;
-  padding-bottom: 20px ;
-  transition: all 0.3s ease;
+.how{
+  position: absolute;
+  width: 1026px;
+  height: 81px;
+  top: 3000px;
+  font-family: SeoulNamsan CEB;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 72px;
+  text-align: center;
+  color: #787878;
 }
 
+.let{
+  position: absolute;
+  height: 63px;
+  top: 3900px;
+  font-family: SeoulNamsan CM;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #787878;
+}
