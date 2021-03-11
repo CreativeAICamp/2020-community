@@ -180,25 +180,30 @@ body {
   position: absolute;
   width: 1026px;
   height: 81px;
-  top: 3000px;
+  left: 164px;
+  top: 1976px;
+  
   font-family: SeoulNamsan CEB;
   font-style: normal;
   font-weight: normal;
   font-size: 72px;
   line-height: 72px;
-  text-align: center;
+  
   color: #787878;
 }
 
 .let{
   position: absolute;
+  width: 373px;
   height: 63px;
-  top: 3900px;
+  left: 109px;
+  top: 2025px;
+  
   font-family: SeoulNamsan CM;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 24px;
-  text-align: center;
+  
   color: #787878;
 }
