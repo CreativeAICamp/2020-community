@@ -1,3 +1,7 @@
+<?php
+$pageTitle = !isset($pageTitle) ? 'Untitled' : $pageTitle;
+$menus = !isset($menus) ? [] : $menus;
+?>
 <!DOCTYPE html>
 <html lang="en" class="h-100">
 
@@ -10,7 +14,7 @@
     <link rel="stylesheet" href="css/font-awesome5.min.css">
     <link rel="stylesheet" href="css/main.css">
 
-    <title>Main</title>
+    <title><?= $pageTitle ?></title>
 </head>
 
 <body class="d-flex flex-column h-100" cz-shortcut-listen="true">
@@ -30,21 +34,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <?php foreach ($menus as $menu): ?>
+                    <li class="nav-item <?= (isset($menu['active']) && $menu['active']) ? 'active' : '' ?>">
+                        <a class="nav-link" href="<?= isset($menu['url']) ? $menu['url'] : '#' ?>"><?= $menu['title'] ?></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Map</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Missions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Characters</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Store</a>
-                    </li>
+                    <?php endforeach ?>
                 </ul>
             </div>
         </nav>
