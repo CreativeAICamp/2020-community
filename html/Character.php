@@ -1,0 +1,89 @@
+<?php
+$item1=$_GET['plus_item1'];
+$item2=$_GET['plus_item2'];
+$item3=$_GET['plus_item3'];
+$item4=$_GET['plus_item4'];
+$item1=$_GET['subt_item1'];
+$item2=$_GET['subt_item2'];
+$item3=$_GET['subt_item3'];
+$item4=$_GET['subt_item4'];
+$number1=0;
+$number2=0;
+$number3=0;
+$number4=0;
+$stock1=3;
+$stock2=1;
+$stock3=2;
+$stock4=3;
+$old_exp=20;
+$full_exp=200;
+    if(isset($_GET['plus_item1']))
+    {
+        $number1++;
+        echo'$number1';
+    }
+    if(isset($_GET['subt_item1']))
+    {
+        if($number1=!0){
+            $number1==0;
+            echo'$number1';
+        }else{
+            $number1--;
+            echo'$number1';
+        }    
+    }
+    if(isset($_GET['plus_item2']))
+    {
+        $number2++;
+        echo'$number2';
+    }
+    if(isset($_GET['subt_item2']))
+    {
+        if($number2=!0){
+            $number2==0;
+            echo'$number2';
+        }else{
+            $number2--;
+            echo'$number2';
+        }    
+    }
+    if(isset($_GET['plus_item3']))
+    {
+        $number3++;
+        echo'$number3';
+    }
+    if(isset($_GET['subt_item3']))
+    {
+        if($number3=!0){
+            $number3==0;
+            echo'$number3';
+        }else{
+            $number3--;
+            echo'$number3';
+        }    
+    }
+    if(isset($_GET['plus_item4']))
+    {
+        $number4++;
+        echo'$number4';
+    }
+    if(isset($_GET['subt_item4']))
+    {
+        if($number4=!0){
+            $number4==0;
+            echo'$number4';
+        }else{
+            $number4--;
+            echo'$number4';
+        }    
+    }
+if(isset($_GET['submit']))
+    {
+        $new_exp=$number1*10+$number2*20+$number3*30+$number4*40;
+        $total_exp=$old_exp+$new_exp;
+        echo '$total_exp';
+        $lenght=$total_exp/$full_exp*100;
+
+    }
+?>
+
