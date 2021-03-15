@@ -20,7 +20,7 @@ include_once('header.php');
                 <div class="content d-flex flex-sm-row flex-column">
                     <div class="flex-fill d-flex flex-row column-left">
                         <div class="lv-from">
-                            <img src="https://picsum.photos/100" class="mb-3 rounded-circle" />
+                            <img src="https://picsum.photos/100?_=1" class="mb-3 rounded-circle" />
                             <h4>Level: 1</h4>
                         </div>
                         <div class="separators">
@@ -29,7 +29,7 @@ include_once('header.php');
                             <i class="fas fa-angle-right"></i>
                         </div>
                         <div class="lv-to">
-                            <img src="https://picsum.photos/100" class="mb-3 rounded-circle" />
+                            <img src="https://picsum.photos/100?_=2" class="mb-3 rounded-circle" />
                             <h4>Level: 2</h4>
                         </div>
                     </div>
