@@ -21,5 +21,5 @@ else
 {
     $success2= $per2;
 }
-echo $success1+$success2;
+echo ($success1+$success2)*100;
 ?> 
