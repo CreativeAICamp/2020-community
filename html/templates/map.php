@@ -3,7 +3,7 @@ $pageTitle = 'Map';
 $menus = [
     ['title' => 'Home', 'url' => '#', 'active' => false],
     ['title' => 'Map', 'url' => 'map.php', 'active' => true],
-    ['title' => 'Missions', 'url' => '#', 'active' => false],
+    ['title' => 'Missions', 'url' => 'missions.php', 'active' => false],
     ['title' => 'Characters', 'url' => '#', 'active' => false],
     ['title' => 'Store', 'url' => '#', 'active' => false],
 ];
