@@ -1,13 +1,16 @@
 <?php
 function demo()
 {
-    $char=
+    $color=
     [
-        "hahaha" =>1,
-        "wawawa"=>1,
-        "kakaka"=>1,
+        "yellow" =>30,
+        "pink"=>70,
     ];
-    $pick = array_rand($char);
+    $pick = array_rand($color);
+    echo $pick;
+    $pick = array_rand($color);
+    echo $pick;
+    $pick = array_rand($color);
     echo $pick;
 }
 echo "<pre>";
