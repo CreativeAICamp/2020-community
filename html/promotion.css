@@ -82,19 +82,34 @@ body{
     padding: 0;
     text-decoration: none;
 }
-.po1{
+.seven{
     position: absolute;
-    width: 50px;
-    height: 50px;
-    left: calc(50% - 20px/2 - 126px);
-    top: calc(50% - 20px/2 - 139px);
-    border-radius: 2px;
+width: 48px;
+height: 48px;
+left: calc(50% - 48px/2 - 364px);
+top: calc(50% - 48px/2 - 20px);
+
+background: url(1.jpg);
+border-radius: 2px;}
+.pink1{
+    position: absolute;
+    width: 31px;
+    height: 33px;
+    left: 252px;
+    top: 255px;
 }
-.po2{
+.pink2{
     position: absolute;
-    width: 50px;
-    height: 50px;
-    left: calc(50% - 20px/2 + 115px);
-    top: calc(50% - 20px/2);
-    border-radius: 2px;
+width: 31px;
+height: 33px;
+left: 187px;
+top: 348px;
+}
+.yellow{
+    position: absolute;
+width: 31px;
+height: 33px;
+left: 325px;
+top: 360px;
+
 }
