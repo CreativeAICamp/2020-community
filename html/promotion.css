@@ -115,17 +115,14 @@ top: 360px;
 .level {
     X: 100px;
     Y: 27px;
-    W: 58px;
-    H: 24px;
-    X constraint: Left;
-    Y constraint: Top;
+    WIDTH : 58px;
+    height: 24px;
     Font family: SeoulNamsan CEB;
-    Font style: Regular;
     font-size: 24px;
     Line height: 24px;
     Line height: 100%;
     Align: Left;
-    Vertical align: Top;
+    align: Top;
     Fill: Solid #FFFFFF;
 }
 .po1{

@@ -53,6 +53,14 @@
     }
 }
 
+.poo{
+    position: absolute;
+    width: 58px;
+    height: 150px;
+    left: 100px;
+    top: 20px;
+    color: #FFFFFF;
+}
 .cir {
     position: absolute;
     width: 58px;
