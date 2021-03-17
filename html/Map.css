@@ -60,7 +60,14 @@ body{
         padding: 0;
     }
 }
-
+.poo{
+    position: absolute;
+    width: 58px;
+    height: 150px;
+    left: 100px;
+    top: 20px;
+    color: #FFFFFF;
+}
 .cir {
     position: absolute;
     width: 58px;
@@ -68,6 +75,7 @@ body{
     left: 27px;
     top: 10px;
 }
+
 
 .coupon {
     color: #333333;
@@ -87,7 +95,7 @@ body{
     width: 50px;
     height: 50px;
     left: calc(50% - 20px/2 - 126px);
-    top: calc(50% - 20px/2 - 139px);
+    top: 30%;
     border-radius: 2px;
 }
 .po2{
@@ -95,6 +103,22 @@ body{
     width: 50px;
     height: 50px;
     left: calc(50% - 20px/2 + 115px);
-    top: calc(50% - 20px/2);
+    top: 45%;
+    border-radius: 2px;
+}
+.s1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 20px/2 - 126px);
+    top: 33%;
+    border-radius: 2px;
+}
+.s2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 20px/2 + 115px);
+    top: 48%;
     border-radius: 2px;
 }
