@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/Sev_Background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 .nav ul {
     list-style: none;
     background-color: #77BE84;
@@ -10,7 +17,6 @@
     font-size: 1.2em;
     line-height: 40px;
     text-align: left;
-
 }
 
 .nav a {
@@ -66,5 +72,59 @@
     width: 58px;
     height: 58px;
     left: 27px;
-    top: 10px;
+    top: 10px;}
+
+.mas{
+    position: absolute;
+    width: 460px;
+    height: 400px;
+    left: 45%;
+    top: 30%;
+}
+
+.grey{
+    position: absolute;
+width: 232px;
+height: 200px;
+left: 80%;
+top: 20%;
+
+background: rgba(0,0,0,0.52);
+border-radius: 27px;
+}
+
+.Success h1
+{
+    position: absolute;
+    width: 123px;
+    height: 34px;
+    left: 83%;
+    top: 20%;
+    font-family: SeoulNamsan CM;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    align:center;
+}
+.Success p{
+    position: absolute;
+    width: 171px;
+    height: 24px;
+    left: 82%;
+    top: 29%;
+    font-family: SeoulNamsan CM;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.star{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1063px;
+    top: 210px;
 }
