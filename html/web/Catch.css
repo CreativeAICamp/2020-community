@@ -109,7 +109,8 @@ border-radius: 27px;
     color: #FFFFFF;
     align:center;
 }
-.Success p{
+.Success p
+{
     position: absolute;
     width: 171px;
     height: 24px;
@@ -122,15 +123,69 @@ border-radius: 27px;
     line-height: 24px;
     color: #FFFFFF;
 }
-.row: :after {
-    content: "";
-    clear: both;
+.row{
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    left: 83%;
+    top: 27.5%;
+}
+.column{
+    float:left;
+    width:33.33%;
+    padding: 2px;
+}
+.row::after{
+    content:"";
+    clear:both;
     display: table;
 }
 .row {
     display: flex;
 }
 .column{
-    left:80%;
+    flex:33.33%;
+    padding: 2px;
 }
+.need{
+    position: absolute;
+width: 513px;
+height: 64px;
+left: 375px;
+top: 516px;
 
+background: #FFFFFF;
+border-radius: 12px;
+}
+.want{
+    position: absolute;
+width: 531px;
+height: 87px;
+left: 379px;
+top: 589px;
+
+background: #FFFFFF;
+border-radius: 43.5px;
+}
+.feed {
+    position: absolute;
+width: 173px;
+height: 87px;
+left: 369px;
+top: 676px;
+
+background: linear-gradient(270deg, #77BF85 50%, #4EC5C0 126.92%);
+border-radius: 17px;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.yel{
+    position: absolute;
+width: 54px;
+height: 57px;
+left: 27px;
+top: 114px;
+
+background: linear-gradient(180deg, #E7BA86 0%, #E2E463 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+} 
