@@ -1,9 +1,0 @@
-diff a/html/Home.css b/html/Home.css	(rejected hunks)
-@@ -12,7 +12,6 @@
- .menubar {
-   background: url(img/Head_1.png)no-repeat;
- 
--  }
-   position: fixed;
-  left: 326px;
-   width: 976px;
