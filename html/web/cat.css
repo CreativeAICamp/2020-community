@@ -1,10 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(img/Map.png);
+    background-image: url(img/cat.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
 .nav ul {
     list-style: none;
     background-color: #77BE84;
@@ -73,67 +74,4 @@ body{
     height: 58px;
     left: 27px;
     top: 10px;
-}
-.po1{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: calc(50% - 20px/2 - 126px);
-    top: 30%;
-    border-radius: 2px;
-}
-.s1{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: calc(50% - 20px/2 - 126px);
-    top: 33%;
-    border-radius: 2px;}
-.coupon {
-    color: #333333;
-    list-style: none;
-    text-align: right;
-    margin-right: 10px;
-    font-family: SeoulNamsan CM;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 24px;
-    padding: 0;
-    text-decoration: none;
-}
-
-.pink1{
-    position: absolute;
-    width: 31px;
-    height: 33px;
-    left: 252px;
-    top: 255px;
-}
-.pink2{
-    position: absolute;
-width: 31px;
-height: 33px;
-left: 187px;
-top: 348px;
-}
-.yellow{
-    position: absolute;
-width: 31px;
-height: 33px;
-left: 325px;
-top: 360px;
-}
-.level {
-    X: 100px;
-    Y: 27px;
-    WIDTH : 58px;
-    height: 24px;
-    Font family: SeoulNamsan CEB;
-    font-size: 24px;
-    Line height: 24px;
-    Line height: 100%;
-    Align: Left;
-    align: Top;
-    Fill: Solid #FFFFFF;
 }

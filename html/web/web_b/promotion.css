@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/Map.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.nav ul {
+    list-style: none;
+    background-color: #77BE84;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    text-align: left;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding-left: 15px;
+    border-bottom: 1px solid #888;
+    transition: .3s;
+    font-family: SeoulNamsan CM;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.nav a:hover {
+    background-color: #FFFFFF;
+    color: #808080;
+}
+
+@media screen and (min-width: 650px) {
+    .nav li {
+        width: 130px;
+        border-bottom: none;
+        height: 80px;
+        line-height: 1.4em;
+        display: inline-block;
+        margin-right: -4px;
+    }
+    .nav a{
+        border-bottom: none;
+        margin-top: 30px;
+    }
+    .nav > ul > li {
+        text-align: center;
+    }
+    .nav > ul > li > a {
+        padding: 0;
+    }
+}
+.poo{
+    position: absolute;
+    width: 58px;
+    height: 150px;
+    left: 100px;
+    top: 20px;
+    color: #FFFFFF;
+}
+.cir {
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 27px;
+    top: 10px;
+}
+.po1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 20px/2 - 126px);
+    top: 30%;
+    border-radius: 2px;
+}
+.s1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 20px/2 - 126px);
+    top: 33%;
+    border-radius: 2px;}
+.coupon {
+    color: #333333;
+    list-style: none;
+    text-align: right;
+    margin-right: 10px;
+    font-family: SeoulNamsan CM;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 0;
+    text-decoration: none;
+}
+
+.pink1{
+    position: absolute;
+    width: 31px;
+    height: 33px;
+    left: 252px;
+    top: 255px;
+}
+.pink2{
+    position: absolute;
+width: 31px;
+height: 33px;
+left: 187px;
+top: 348px;
+}
+.yellow{
+    position: absolute;
+width: 31px;
+height: 33px;
+left: 325px;
+top: 360px;
+}
+.level {
+    X: 100px;
+    Y: 27px;
+    WIDTH : 58px;
+    height: 24px;
+    Font family: SeoulNamsan CEB;
+    font-size: 24px;
+    Line height: 24px;
+    Line height: 100%;
+    Align: Left;
+    align: Top;
+    Fill: Solid #FFFFFF;
+}
+.cir {
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 27px;
+    top: 10px;
+  }
+  
+  .coupon {
+      color: #333333;
+      list-style: none;
+      text-align: right;
+      margin-right: 10px;
+      font-family: SeoulNamsan CM;
+      font-size: 24px;
+      line-height: 24px;
+      padding: 0;
+      text-decoration: none;
+      position: absolute;
+  }
+  .po1 {
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0;
