@@ -71,6 +71,10 @@ include_once('header.php');
                 icon: icons[features[i].type].icon,
                 map: map,
             });
+
+            google.maps.event.addListener(marker, 'click', function() {
+                window.location.href = 'promotion.php';
+            });
         }
     }
 </script>
