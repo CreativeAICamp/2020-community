@@ -24,6 +24,43 @@ include_once('header.php');
             },
             zoom: 19,
         });
+        const icons = {
+            logo1: {
+                icon: "img/Area_seven.png",
+                icon: "img/Seven.png"
+            },
+            logo2: {
+                icon: "img/Area_seven.png",
+                icon: "img/Seven.png"
+            },
+            logo3: {
+                icon: "img/Area_seven.png",
+                icon: "img/Seven.png"
+            },
+            logo4: {
+                icon: "img/Area_seven.png",
+                icon: "img/Seven.png"
+            },
+            
+        };
+        const features = [
+            {
+                position: new google.maps.LatLng(7.950797, 98.28318424),
+                type: "logo1",
+            },
+            {
+                position: new google.maps.LatLng(16.439625, 102.828728),
+                type: "logo2",
+            },
+            {
+                position: new google.maps.LatLng(13.7276256, 100.5324386),
+                type: "logo3",
+            },
+            {
+                position: new google.maps.LatLng(18.743760777, 99.07700569),
+                type: "logo4",
+            },
+        ];
 
         for (let i = 0; i < features.length; i++) {
             const marker = new google.maps.Marker({
