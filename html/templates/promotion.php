@@ -81,12 +81,8 @@ include_once('header.php');
           </td>
           </div>
       </table>
-    <div class="po1">
-        <img src="img/Area_seven.png" alt="">
-    </div>
-    <div class="s1">
-        <a href="Catch.html" target="_blank"><img src="img/Seven.png" alt=""></a>
-    </div>
+    
+   
         <div class="pink1">
             <img src="img/Rectangle_pink.png" alt="">
             <img src="img/Questionmark.png" alt="">
@@ -115,21 +111,15 @@ include_once('header.php');
             zoom: 19,
         });
         const icons = {
-            parking: {
-                icon: "https://www.compliancebuilding.com/wp-content/uploads/2018/01/7-eleven-brand-logo.png",
-            },
-            mascot: {
-                icon: "img/Mascot_Lop.png",
+            logo: {
+                icon: "img/Area_seven.png",
+                icon: "img/Seven.png"
             },
         };
         const features = [
             {
-                position: new google.maps.LatLng(13.7276244, 100.5324386),
-                type: "parking",
-            },
-            {
                 position: new google.maps.LatLng(13.7269214, 100.5334446),
-                type: "mascot",
+                type: "logo",
             },
         ];
 
