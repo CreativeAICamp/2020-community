@@ -125,11 +125,8 @@ include_once('header.php');
     },
     ];
 </script>
-<<<<<<< HEAD
 
 <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap" async></script>
-=======
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8Too94E9gsDi-PwS8sb-NA7zbMc8uR5w&callback=initMap" async></script>
->>>>>>> 9ca7a3b4b89afdd3803203db3e1a1d88dffb36b2
 <?php
 include_once('end.php');
