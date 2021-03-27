@@ -12,6 +12,7 @@ include_once('header.php');
 ?>
 <div class="h-100 position-relative">
     <div id="map" class="h-100"></div>
+</div>
 
 <?php include_once('footer.php'); ?>
 
@@ -24,7 +25,7 @@ include_once('header.php');
                 lat: 13.7276256,
                 lng: 100.5324386
             },
-            zoom: 19,
+            zoom: 14,
         });
         const icons = {
             logo1: {
