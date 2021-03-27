@@ -10,6 +10,8 @@ $menus = [
 
 include_once('header.php');
 ?>
+<div class="h-100 position-relative">
+    <div id="map" class="h-100"></div>
 
 <?php include_once('footer.php'); ?>
 
