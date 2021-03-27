@@ -4,8 +4,7 @@ $menus = [
     ['title' => 'Home', 'url' => '#', 'active' => false],
     ['title' => 'Map', 'url' => 'map.php', 'active' => true],
     ['title' => 'Missions', 'url' => 'missions.php', 'active' => false],
-    ['title' => 'Characters', 'url' => '#', 'active' => false],
-    ['title' => 'Store', 'url' => '#', 'active' => false],
+  
 ];
 
 include_once('header.php');
