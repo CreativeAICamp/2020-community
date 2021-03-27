@@ -115,15 +115,25 @@ include_once('header.php');
             zoom: 19,
         });
         const icons = {
-    parking: {
-      icon:"https://www.compliancebuilding.com/wp-content/uploads/2018/01/7-eleven-brand-logo.png",
-    },
-    };
-    const features = [
-    {
-      position: new google.maps.LatLng(13.7276244, 100.5324386),
-    },
-    ];
+            parking: {
+                icon: "https://www.compliancebuilding.com/wp-content/uploads/2018/01/7-eleven-brand-logo.png",
+            },
+        };
+        const features = [
+            {
+                position: new google.maps.LatLng(13.7276244, 100.5324386),
+                type: "parking"
+            },
+        ];
+
+        for (let i = 0; i < features.length; i++) {
+            const marker = new google.maps.Marker({
+                position: features[i].position,
+                icon: icons[features[i].type].icon,
+                map: map,
+            });
+        }
+    }
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8Too94E9gsDi-PwS8sb-NA7zbMc8uR5w&callback=initMap" async></script>
