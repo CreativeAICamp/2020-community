@@ -129,3 +129,294 @@ main > .content {
     text-align: left;
   }
 }
+.promo .greenbar {
+  width: 30%;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  height:100%;
+}
+.promo .logo {
+  position: absolute;
+  height: 100px;
+  left: 15%;
+  top: 5%;
+}
+.promo .sakha{
+  position: absolute;
+  width: 227px;
+  height: 67px;
+  left: 35%;
+  top: 4%;
+  font-family: SeoulNamsan CM;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #393939;
+}
+.promo .coupon{
+  position: absolute;
+width: 189px;
+height: 27px;
+left:30%;
+top: 15%;
+font-family: SeoulNamsan CEB;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 36px;
+
+color: #249445;
+}
+.promo .o{
+  position: absolute;
+  height: 65px;
+  left: 10%;
+  top: 19%;
+
+}
+.promo .text .name{
+  position: absolute;
+  height: 15px;
+  left: 30%;
+  top: 20%;
+  font-family: SeoulNamsan CEB;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #393939;
+}
+.promo .text .discount{
+  position: absolute;
+  height: 16px;
+  left: 30%;
+  top: 22%;
+  font-family: SeoulNamsan CM;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #393939;
+}
+.promo .text .more{
+  position: absolute;
+height: 15px;
+left: 30%;
+  top: 24%;
+
+font-family: SeoulNamsan CM;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 13px;
+
+color: #A8A8A8;
+}
+.promo .banana{
+  position: absolute;
+  height: 65px;
+  left: 10%;
+  top: 30%;
+
+}
+.promo .text2 .name2{
+  position: absolute;
+  height: 15px;
+  left: 30%;
+  top: 31%;
+  font-family: SeoulNamsan CEB;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #393939;
+}
+.promo .text2 .discount2{
+  position: absolute;
+  height: 16px;
+  left: 30%;
+  top: 33%;
+  font-family: SeoulNamsan CM;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #393939;
+}
+.promo .milk{
+  position: absolute;
+  height: 65px;
+  left: 10%;
+  top: 39%;
+
+}
+.promo .text3 .name3{
+  position: absolute;
+  height: 15px;
+  left: 30%;
+  top: 40%;
+  font-family: SeoulNamsan CEB;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #393939;
+}
+.promo .text3 .discount3{
+  position: absolute;
+  height: 16px;
+  left: 30%;
+  top: 42%;
+  font-family: SeoulNamsan CM;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #393939;
+}
+.promo .text3 .more3{
+  position: absolute;
+
+height: 15px;
+left: 30%;
+  top: 44%;
+
+font-family: SeoulNamsan CM;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 13px;
+
+color: #A8A8A8;
+}
+.promo .san{
+  position: absolute;
+  height: 65px;
+  left: 10%;
+  top: 50%;
+
+}
+.promo .text4 .name4{
+  position: absolute;
+  height: 15px;
+  left: 30%;
+  top: 51%;
+  font-family: SeoulNamsan CEB;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #393939;
+}
+.promo .text4 .discount4{
+  position: absolute;
+  height: 16px;
+  left: 30%;
+  top: 53%;
+  font-family: SeoulNamsan CM;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #393939;
+}
+.promo .dum{
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  left: 10%;
+  top: 61%;
+
+}
+.promo .text5 .name5{
+  position: absolute;
+  height: 15px;
+  left: 30%;
+  top: 62%;
+  font-family: SeoulNamsan CEB;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #393939;
+}
+.promo .text5 .discount5{
+  position: absolute;
+  height: 16px;
+  left: 30%;
+  top: 64%;
+  font-family: SeoulNamsan CM;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #393939;
+}
+.promo .click{
+  position: absolute;
+  width: 102px;
+  height: 31px;
+  left: 80%;
+  top: 19%;
+  background: radial-gradient(105.88% 1146.31% at 0% 51.61%, #77BF85 0%, #4FC5BF 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.promo .click2{
+  position: absolute;
+  width: 102px;
+  height: 31px;
+  left: 80%;
+  top: 30%;
+  background: radial-gradient(105.88% 1146.31% at 0% 51.61%, #77BF85 0%, #4FC5BF 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.promo .click3{
+  position: absolute;
+  width: 102px;
+  height: 31px;
+  left: 80%;
+  top: 41%;
+  background: radial-gradient(105.88% 1146.31% at 0% 51.61%, #77BF85 0%, #4FC5BF 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.promo .click4{
+  position: absolute;
+  width: 102px;
+  height: 31px;
+  left: 80%;
+  top: 52%;
+  background: radial-gradient(105.88% 1146.31% at 0% 51.61%, #77BF85 0%, #4FC5BF 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.promo .click5{
+  position: absolute;
+  width: 102px;
+  height: 31px;
+  left: 80%;
+  top: 63%;
+  background: radial-gradient(105.88% 1146.31% at 0% 51.61%, #77BF85 0%, #4FC5BF 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.promo .po1{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: calc(50% - 20px/2 - 126px);
+  top: 30%;
+  border-radius: 2px;
+}
+.promo .s1{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: calc(50% - 20px/2 - 126px);
+  top: 33%;
+  border-radius: 2px;
+}

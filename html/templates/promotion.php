@@ -1,34 +1,20 @@
+<?php
+$pageTitle = 'Map';
+$menus = [
+    ['title' => 'Home', 'url' => '#', 'active' => false],
+    ['title' => 'Map', 'url' => 'map.php', 'active' => true],
+    ['title' => 'Missions', 'url' => 'missions.php', 'active' => false],
+    ['title' => 'Characters', 'url' => '#', 'active' => false],
+    ['title' => 'Store', 'url' => '#', 'active' => false],
+];
 
-<!DOCTYPE html> 
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="promotion.css">
-</head>
-<body>
-    <header>
-        <div class="nav">
-            <ul>
-                <li class="map"><a href="Map.html">Map</a></li>
-                <li class="mission"><a href="Mission.html">Mission</a></li>
-                <li class="characters"><a href="Character.html">Characters</a></li>
-                <li class="store"><a href="Store.html">Store</a></li>
-                <li class="game"><a href="game.html">fighting</a></li>
-            </ul>
-        </div>
-        <div class="poo">
-            <c1>P'Poo</c1>
-            <c2>Level : 1</c2>
-        </div>
-        <div class="cir">
-            <img src="img/Ellipse 7.png" alt="">
-        </div>
-    </header>
-    <table id="menu_table" class="promo">
+include_once('header.php');
+?>
+<div class="h-100 position-relative">
+    <div id="map" class="h-100"></div>
+<div class="promo">
+
+    <table id="menu_table" >
           <div class="menu_button">
           <td class="greenbar">
             <div class="logo">
@@ -112,9 +98,24 @@
         <div class="yellow">
             <img src="img/Rectangle_yellow.png" alt="">
         </div>
-    
+</div>
+</div>
+<?php include_once('footer.php'); ?>
 
-</body>
-</html>
+<script>
+    let map;
 
+    function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+            center: {
+                lat: 13.7276256,
+                lng: 100.5324386
+            },
+            zoom: 19,
+        });
+    }
 
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap" async></script>
+<?php
+include_once('end.php');
