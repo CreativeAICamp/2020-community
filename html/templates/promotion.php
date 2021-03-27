@@ -118,11 +118,18 @@ include_once('header.php');
             parking: {
                 icon: "https://www.compliancebuilding.com/wp-content/uploads/2018/01/7-eleven-brand-logo.png",
             },
+            mascot: {
+                icon: "img/Mascot_Lop.png",
+            },
         };
         const features = [
             {
                 position: new google.maps.LatLng(13.7276244, 100.5324386),
-                type: "parking"
+                type: "parking",
+            },
+            {
+                position: new google.maps.LatLng(13.7269214, 100.5334446),
+                type: "mascot",
             },
         ];
 
