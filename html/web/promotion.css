@@ -1,0 +1,368 @@
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/Zoom_map.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  .nav ul {
+    list-style: none;
+    background-color: #77BE84;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  
+  .nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    text-align: left;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding-left: 15px;
+    border-bottom: 1px solid #888;
+    transition: 0.3s;
+    font-family: SeoulNamsan CM;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  
+  .nav a:hover {
+    background-color: #FFFFFF;
+    color: #808080;
+  }
+  
+  @media screen and (min-width: 650px) {
+    .nav li {
+      width: 130px;
+      border-bottom: none;
+      height: 80px;
+      line-height: 1.4em;
+      display: inline-block;
+      margin-right: -4px;
+    }
+    .nav a {
+      border-bottom: none;
+      margin-top: 30px;
+    }
+    .nav > ul > li {
+      text-align: center;
+    }
+    .nav > ul > li > a {
+      padding: 0;
+    }
+  }
+  .poo{
+    position: absolute;
+    width: 58px;
+    height: 150px;
+    left: 100px;
+    top: 20px;
+    color: #FFFFFF;
+}
+.cir {
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 27px;
+    top: 10px;
+}
+.greenbar {
+    width: 30%;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    height:100%;
+}
+.logo {
+    position: absolute;
+    height: 100px;
+    left: 15%;
+    top: 5%;
+}
+.sakha{
+    position: absolute;
+    width: 227px;
+    height: 67px;
+    left: 35%;
+    top: 4%;
+    font-family: SeoulNamsan CM;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #393939;
+}
+.coupon{
+    position: absolute;
+width: 189px;
+height: 27px;
+left:30%;
+top: 15%;
+font-family: SeoulNamsan CEB;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 36px;
+
+color: #249445;
+}
+.o{
+    position: absolute;
+    height: 65px;
+    left: 10%;
+    top: 19%;
+
+}
+.text .name{
+    position: absolute;
+    height: 15px;
+    left: 30%;
+    top: 20%;
+    font-family: SeoulNamsan CEB;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #393939;
+}
+.text .discount{
+    position: absolute;
+    height: 16px;
+    left: 30%;
+    top: 22%;
+    font-family: SeoulNamsan CM;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #393939;
+}
+.text .more{
+    position: absolute;
+height: 15px;
+left: 30%;
+    top: 24%;
+
+font-family: SeoulNamsan CM;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 13px;
+
+color: #A8A8A8;
+}
+.banana{
+    position: absolute;
+    height: 65px;
+    left: 10%;
+    top: 30%;
+
+}
+.text2 .name2{
+    position: absolute;
+    height: 15px;
+    left: 30%;
+    top: 31%;
+    font-family: SeoulNamsan CEB;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #393939;
+}
+.text2 .discount2{
+    position: absolute;
+    height: 16px;
+    left: 30%;
+    top: 33%;
+    font-family: SeoulNamsan CM;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #393939;
+}
+.milk{
+    position: absolute;
+    height: 65px;
+    left: 10%;
+    top: 39%;
+
+}
+.text3 .name3{
+    position: absolute;
+    height: 15px;
+    left: 30%;
+    top: 40%;
+    font-family: SeoulNamsan CEB;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #393939;
+}
+.text3 .discount3{
+    position: absolute;
+    height: 16px;
+    left: 30%;
+    top: 42%;
+    font-family: SeoulNamsan CM;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #393939;
+}
+.text3 .more3{
+    position: absolute;
+
+height: 15px;
+left: 30%;
+    top: 44%;
+
+font-family: SeoulNamsan CM;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 13px;
+
+color: #A8A8A8;
+}
+.san{
+    position: absolute;
+    height: 65px;
+    left: 10%;
+    top: 50%;
+
+}
+.text4 .name4{
+    position: absolute;
+    height: 15px;
+    left: 30%;
+    top: 51%;
+    font-family: SeoulNamsan CEB;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #393939;
+}
+.text4 .discount4{
+    position: absolute;
+    height: 16px;
+    left: 30%;
+    top: 53%;
+    font-family: SeoulNamsan CM;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #393939;
+}
+.dum{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 10%;
+    top: 61%;
+
+}
+.text5 .name5{
+    position: absolute;
+    height: 15px;
+    left: 30%;
+    top: 62%;
+    font-family: SeoulNamsan CEB;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #393939;
+}
+.text5 .discount5{
+    position: absolute;
+    height: 16px;
+    left: 30%;
+    top: 64%;
+    font-family: SeoulNamsan CM;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #393939;
+}
+.click{
+    position: absolute;
+    width: 102px;
+    height: 31px;
+    left: 80%;
+    top: 19%;
+    background: radial-gradient(105.88% 1146.31% at 0% 51.61%, #77BF85 0%, #4FC5BF 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.click2{
+    position: absolute;
+    width: 102px;
+    height: 31px;
+    left: 80%;
+    top: 30%;
+    background: radial-gradient(105.88% 1146.31% at 0% 51.61%, #77BF85 0%, #4FC5BF 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.click3{
+    position: absolute;
+    width: 102px;
+    height: 31px;
+    left: 80%;
+    top: 41%;
+    background: radial-gradient(105.88% 1146.31% at 0% 51.61%, #77BF85 0%, #4FC5BF 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.click4{
+    position: absolute;
+    width: 102px;
+    height: 31px;
+    left: 80%;
+    top: 52%;
+    background: radial-gradient(105.88% 1146.31% at 0% 51.61%, #77BF85 0%, #4FC5BF 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.click5{
+    position: absolute;
+    width: 102px;
+    height: 31px;
+    left: 80%;
+    top: 63%;
+    background: radial-gradient(105.88% 1146.31% at 0% 51.61%, #77BF85 0%, #4FC5BF 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.po1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 20px/2 - 126px);
+    top: 30%;
+    border-radius: 2px;
+}
+.s1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 20px/2 - 126px);
+    top: 33%;
+    border-radius: 2px;
+}
