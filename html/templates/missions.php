@@ -1,11 +1,11 @@
 <?php
 $pageTitle = 'Missions';
 $menus = [
-    ['title' => 'Home', 'url' => '#', 'active' => false],
     ['title' => 'Map', 'url' => 'map.php', 'active' => false],
     ['title' => 'Missions', 'url' => 'missions.php', 'active' => true],
-    ['title' => 'Characters', 'url' => '#', 'active' => false],
-    ['title' => 'Store', 'url' => '#', 'active' => false],
+    ['title' => 'Characters', 'url' => 'character.php', 'active' => false],
+    ['title' => 'Store', 'url' => 'store.php', 'active' => false],
+    ['title' => 'Fighting', 'url' => 'game.php', 'active' => false],
 ];
 
 include_once('header.php');
@@ -13,52 +13,90 @@ include_once('header.php');
 
 <div class="container-fluid py-4">
     <div class="row">
-        <?php for ($i = 0; $i < 3; $i++): ?>
+        
         <div class="col-12 col-xl-10 offset-xl-1 mb-3">
             <div class="card shadow-sm p-3">
                 <div class="d-flex justify-content-between">
                     <div class="flex-grow-1 align-self-center d-flex flex-row align-items-center">
-                        <img src="https://picsum.photos/150?_=<?= $i ?>" class="rounded" />
+                        <img src="img/Mascot_Lop.png" class="rounded" />
                         <div class="ml-4">
-                            <h3>Elit est non</h3>
+                            <h3>Lopbuu</h3>
                             <div>
-                                <?php for ($stars = 0; $stars < rand(3, 5); $stars++): ?>
-                                <img src="images/star.png" alt="star">
-                                <?php endfor ?>
+                                <img src="images/star.png" alt="star"> <img src="images/star.png" alt="star"> <img src="images/star.png" alt="star"> <img src="images/star.png" alt="star"> <img src="images/star.png" alt="star">
                             </div>
                         </div>
+                        
                     </div>
                     <div class="border-left px-3">
-                        <h4>Commodo duis cupidatat</h4>
+                        <h4>Phra Prang Sam Yot</h4>
                         <div class="content mb-3">
-                            <p class="m-0">Laboris fugiat</p>
-                            <p class="m-0">minim ex quis fugiat</p>
-                            <p class="m-0">ad commodo</p>
+                            <p class="m-0">ตำบลท่าหิน</p>
+                            <p class="m-0">อำเภอเมืองลพบุรี</p>
+                            <p class="m-0">ลพบุรี 15000</p>
                         </div>
                         <button class="btn btn-success">Let's travel</button>
                     </div>
                     <div class="border-left px-3">
-                        <h4>Deserunt aliquip</h4>
+                        <h4>King Narai the Great Monument</h4>
                         <div class="content mb-3">
-                            <p class="m-0">Ullamco occaecat</p>
-                            <p class="m-0">Sunt nostrud duis irure ad</p>
-                            <p class="m-0">Adipisicing</p>
+                            <p class="m-0">ตำบลทะเลชุบศร</p>
+                            <p class="m-0">อำเภอเมือง</p>
+                            <p class="m-0">ลพบุรี 15000</p>
                         </div>
                         <button class="btn btn-success">Let's travel</button>
                     </div>
                     <div class="border-left px-3">
-                        <h4>Elit fugiat exercitation</h4>
+                        <h4>Wat Kaow Wong Pra Jan</h4>
                         <div class="content mb-3">
-                            <p class="m-0">Do est consectetur nisi</p>
-                            <p class="m-0">Aliqua magna</p>
-                            <p class="m-0">Nisi quis aute</p>
+                            <p class="m-0">ตำบลห้วยโป่ง</p>
+                            <p class="m-0">อำเภอโคกสำโรง</p>
+                            <p class="m-0">จังหวัดลพบุรี 15000</p>
                         </div>
                         <button class="btn btn-success disabled">Success</button>
                     </div>
+
+                    <img src="img/Mascot_Chiang.png" class="rounded" style="width: 300px;height: 308px;">
+                        <div class="ml-4">
+                            <h3>Chiangmaa</h3>
+                            <div>
+                                <img src="images/star.png" alt="star"> <img src="images/star.png" alt="star"> <img src="images/star.png" alt="star"> <img src="images/star.png" alt="star">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="border-left px-3">
+                        <h4>Wat Phra That Doi Suthep</h4>
+                        <div class="content mb-3">
+                            <p class="m-0">ตำบลสุเทพ</p>
+                            <p class="m-0">อำเภอเมือง</p>
+                            <p class="m-0">เชียงใหม่ 50200</p>
+                        </div>
+                        <button class="btn btn-success">Let's travel</button>
+                    </div>
+                    <div class="border-left px-3">
+                        <h4>Tha Non Khon Dean Tha Pea</h4>
+                        <div class="content mb-3">
+                            <p class="m-0">ตำบลศรีภูมิ</p>
+                            <p class="m-0">อำเภอเมือง</p>
+                            <p class="m-0">เชียงใหม่ 50200</p>
+                        </div>
+                        <button class="btn btn-success">Let's travel</button>
+                    </div>
+                    <div class="border-left px-3">
+                        <h4>Doi Inthanon</h4>
+                        <div class="content mb-3">
+                            <p class="m-0">ตำบลบ้านหลวง</p>
+                            <p class="m-0">อำเภอจอมทอง</p>
+                            <p class="m-0">เชียงใหม่ 50270</p>
+                        </div>
+                        <button class="btn btn-success disabled">Success</button>
+                    </div>
+                    
+                    
                 </div>
             </div>
         </div>
-        <?php endfor ?>
+        
     </div>
 </div>
 

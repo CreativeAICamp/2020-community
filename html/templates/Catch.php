@@ -1,16 +1,15 @@
 <?php
 $pageTitle = 'Map';
 $menus = [
-    ['title' => 'Home', 'url' => '#', 'active' => false],
     ['title' => 'Map', 'url' => 'map.php', 'active' => true],
     ['title' => 'Missions', 'url' => 'missions.php', 'active' => false],
-    ['title' => 'Characters', 'url' => '#', 'active' => false],
-    ['title' => 'Store', 'url' => '#', 'active' => false],
+    ['title' => 'Characters', 'url' => 'character.php', 'active' => false],
+    ['title' => 'Store', 'url' => 'store.php', 'active' => false],
+    ['title' => 'Fighting', 'url' => 'game.php', 'active' => false],
 ];
 
 include_once('header.php');
 ?>
-
     <div class="mas">
         <img src="img/Mascot_Lop.png" alt="">
     </div>
@@ -65,5 +64,7 @@ include_once('header.php');
             <p>x0</p>
         </div>
     </div>
-</body>
-</html> 
+    <?php include_once('footer.php'); ?>
+
+<?php
+include_once('end.php');
