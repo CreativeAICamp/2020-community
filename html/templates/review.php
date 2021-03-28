@@ -10,6 +10,7 @@ $menus = [
 
 include_once('header.php');
 ?>
+<div class="pic"><img src="img/comment.png" alt="" width="100%"></div>
 <?php include_once('footer.php'); ?>
 
 <?php
