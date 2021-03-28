@@ -363,9 +363,6 @@ color: #A8A8A8;
   height: 31px;
   left: 80%;
   top: 19%;
-  background: radial-gradient(105.88% 1146.31% at 0% 51.61%, #77BF85 0%, #4FC5BF 100%);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
 }
 .promo .click2{
   position: absolute;
@@ -373,9 +370,6 @@ color: #A8A8A8;
   height: 31px;
   left: 80%;
   top: 30%;
-  background: radial-gradient(105.88% 1146.31% at 0% 51.61%, #77BF85 0%, #4FC5BF 100%);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
 }
 .promo .click3{
   position: absolute;
@@ -383,9 +377,6 @@ color: #A8A8A8;
   height: 31px;
   left: 80%;
   top: 41%;
-  background: radial-gradient(105.88% 1146.31% at 0% 51.61%, #77BF85 0%, #4FC5BF 100%);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
 }
 .promo .click4{
   position: absolute;
@@ -393,9 +384,6 @@ color: #A8A8A8;
   height: 31px;
   left: 80%;
   top: 52%;
-  background: radial-gradient(105.88% 1146.31% at 0% 51.61%, #77BF85 0%, #4FC5BF 100%);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
 }
 .promo .click5{
   position: absolute;
@@ -403,8 +391,6 @@ color: #A8A8A8;
   height: 31px;
   left: 80%;
   top: 63%;
-  background: radial-gradient(105.88% 1146.31% at 0% 51.61%, #77BF85 0%, #4FC5BF 100%);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }
 .promo .po1{
