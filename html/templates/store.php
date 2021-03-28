@@ -10,8 +10,9 @@ $menus = [
 
 include_once('header.php');
 ?>
-<?php include_once('footer.php'); ?>
 
-<div class="pic"><img src="img/store.png" alt=""></div>
+<div class="pic"><img src="img/store.png" alt="" width="100%"></div>
+
+<?php include_once('footer.php'); ?>
 <?php
 include_once('end.php');

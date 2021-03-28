@@ -10,60 +10,73 @@ $menus = [
 
 include_once('header.php');
 ?>
-    <div class="mas">
-        <img src="img/Mascot_Lop.png" alt="">
+    <div class="success">
+    <div class="textHeight">
+        <h5 class="my-0">Phra Prang Sam Yot</h5>
+        <p class="my-0">Successed : 50%</p>
     </div>
-    <div class="yel">
-        <button target="_blank">?</button>
+    <div>
+    <tr>
+        <td>
+            <img src="img/Star.png">
+        </td>
+        <td>
+            <img src="img/Star.png">
+        </td>
+        <td>
+            <img src="img/Star.png">
+        </td>
+        <td>
+            <img src="img/Star.png">
+        </td>
+        <td>
+            <img src="img/Star.png">
+        </td>    
+    </tr>
     </div>
-    <div class="grey">
-        <button target="_blank"></button>
+</div>
+
+<div class="question">
+    <h3>?</h3>
+</div>
+
+<div class="whiteBox">
+    <div class="l">
+        <h4 class="my-0">Selected :</h4>
     </div>
-    <div class="need">
-        <button target="_blank"></button>
+    <div class="l">
+        <button><img src="img/mango-with-sticky-rice.png"></botton>
     </div>
-    <div class="want">
-        <button target="_blank"></button>
+    <div class="l">
+        <p class="my-0">x0</p>
     </div>
+    <div class="l">
+        <img src="img/Thai dessert_black.white.png">
+    </div>
+    <div class="l">
+        <p class="my-0">x0</p>
+    </div>
+</div>
+
+<div class="whiteBox2">
     <div class="feed">
-        <button target="_blank">feed</button>
-    </div>
-    <div class="Success">
-        <h1>Phra Prang Sam Yot</h1>
-        <p>Successed : 50%</p>
-    </div>
-    <div class="row">
-        <div class="column">
-            <img src="img/Star.png" alt="">
-        </div>
-        <div class="column">
-            <img src="img/Star.png" alt="">
-        </div>
-        <div class="column">
-            <img src="img/Star.png" alt="">
-        </div>
-        <div class="column">
-            <img src="img/Star.png" alt="">
-        </div>
-        <div class="column">
-            <img src="img/Star.png" alt="">
+        <div class="flipV">
+            <h3 class="my-0">Feed</h3>
         </div>
     </div>
-    <img src="img/Rectangle_success white tab.png" alt="">
-    <img src="img/Rectangle_success green tab.png" alt="">
-    <div class="Tab_1">
-        <img src="img/mango-with-sticky-rice.png" alt="">
-        <p>x5</p>
-        <img src="img/Thai dessert.png" alt="">
-        <p>x5</p>
+    <div class="l">
+        <button><img src="img/mango-with-sticky-rice.png"></botton>
     </div>
-    <div class="Tab_2">
-            <img src="img/mango-with-sticky-rice.png" alt="">
-            <p>x10</p>
-            <img src="img/Thai dessert_black.white.png" alt="">
-            <p>x0</p>
-        </div>
+    <div class="l">
+        <p class="my-0">x0</p>
     </div>
+    <div class="l">
+        <img src="img/Thai dessert_black.white.png">
+    </div>
+    <div class="l">
+        <p class="my-0">x0</p>
+    </div>
+</div>
     <?php include_once('footer.php'); ?>
 
 <?php
