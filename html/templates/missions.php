@@ -28,7 +28,7 @@ include_once('header.php');
                         </div>
                         
                     </div>
-                    <div class="border-left px-3">
+                    <div style="width: 20%" class="border-left px-3">
                         <h4>Phra Prang Sam Yot</h4>
                         <div class="content mb-3">
                             <p class="m-0">ตำบลท่าหิน</p>
@@ -37,7 +37,7 @@ include_once('header.php');
                         </div>
                         <button class="btn btn-success">Let's travel</button>
                     </div>
-                    <div class="border-left px-3">
+                    <div style="width: 20%" class="border-left px-3">
                         <h4>King Narai the Great Monument</h4>
                         <div class="content mb-3">
                             <p class="m-0">ตำบลทะเลชุบศร</p>
@@ -46,7 +46,7 @@ include_once('header.php');
                         </div>
                         <button class="btn btn-success">Let's travel</button>
                     </div>
-                    <div class="border-left px-3">
+                    <div style="width: 20%" class="border-left px-3">
                         <h4>Wat Kaow Wong Pra Jan</h4>
                         <div class="content mb-3">
                             <p class="m-0">ตำบลห้วยโป่ง</p>
@@ -71,7 +71,7 @@ include_once('header.php');
                         </div>
                         
                     </div>
-                    <div class="border-left px-3">
+                    <div style="width: 20%" class="border-left px-3">
                         <h4>Wat Phra That Doi Suthep</h4>
                         <div class="content mb-3">
                             <p class="m-0">ตำบลสุเทพ</p>
@@ -80,7 +80,7 @@ include_once('header.php');
                         </div>
                         <button class="btn btn-success">Let's travel</button>
                     </div>
-                    <div class="border-left px-3">
+                    <div style="width: 20%" class="border-left px-3">
                         <h4>Tha Non Khon Dean Tha Pea</h4>
                         <div class="content mb-3">
                             <p class="m-0">ตำบลศรีภูมิ</p>
@@ -89,7 +89,7 @@ include_once('header.php');
                         </div>
                         <button class="btn btn-success">Let's travel</button>
                     </div>
-                    <div class="border-left px-3">
+                    <div style="width: 20%" class="border-left px-3">
                         <h4>Doi Inthanon</h4>
                         <div class="content mb-3">
                             <p class="m-0">ตำบลบ้านหลวง</p>
@@ -116,32 +116,32 @@ include_once('header.php');
                         </div>
                         
                     </div>
-                    <div class="border-left px-3">
+                    <div style="width: 20%" class="border-left px-3">
                         <h4>Wat Phra That Doi Suthep</h4>
                         <div class="content mb-3">
                             <p class="m-0">ตำบลสุเทพ</p>
                             <p class="m-0">อำเภอเมือง</p>
                             <p class="m-0">เชียงใหม่ 50200</p>
                         </div>
-                        <button class="btn btn-success disabled">Success</button>
+                        <button style="top: 80%" class="btn btn-success disabled">Success</button>
                     </div>
-                    <div class="border-left px-3">
+                    <div style="width: 20%" class="border-left px-3">
                         <h4>Tha Non Khon Dean Tha Pea</h4>
                         <div class="content mb-3">
                             <p class="m-0">ตำบลศรีภูมิ</p>
                             <p class="m-0">อำเภอเมือง</p>
                             <p class="m-0">เชียงใหม่ 50200</p>
                         </div>
-                        <button class="btn btn-success disabled">Success</button>
+                        <button style="top :80%" class="btn btn-success disabled">Success</button>
                     </div>
-                    <div class="border-left px-3">
+                    <div style="width: 20%" class="border-left px-3">
                         <h4>Doi Inthanon</h4>
                         <div class="content mb-3">
                             <p class="m-0">ตำบลบ้านหลวง</p>
                             <p class="m-0">อำเภอจอมทอง</p>
                             <p class="m-0">เชียงใหม่ 50270</p>
                         </div>
-                        <button class="btn btn-success disabled">Success</button>
+                        <button style="top: 80%" class="btn btn-success disabled">Success</button>
                     </div>
                     
                     

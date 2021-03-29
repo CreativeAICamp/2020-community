@@ -66,7 +66,7 @@ $cluster05= 20;
     <!-- Begin page content -->
     <main role="main" class="d-flex flex-grow-1">
         <div class="content flex-grow-1">
-<body>
+
   <div class="row">
     <div class="large-4 small-4 columns">
       <ul data-pie-id="pie">
@@ -91,5 +91,8 @@ $cluster05= 20;
       $(document).foundation();
     });
   </script>
-</body>
-</html>
+
+
+<?php include_once('footer.php'); ?>
+<?php
+include_once('end.php');
