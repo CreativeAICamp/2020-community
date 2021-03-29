@@ -7,14 +7,13 @@ $menus = [
     ['title' => 'Store', 'url' => 'store.php', 'active' => false],
     ['title' => 'Fighting', 'url' => 'game.php', 'active' => false],
     ['title' => 'Pie', 'url' => 'pie.php', 'active' => true],
-];?>
-<?php 
-    $cluster01= 20;
-    $cluster02= 20;
-    $cluster03= 20;
-    $cluster04= 20;
-    $cluster05= 20;
-  ?>
+  ];
+$cluster01= 20;
+$cluster02= 20;
+$cluster03= 20;
+$cluster04= 20;
+$cluster05= 20;
+?>
 <!DOCTYPE html>
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
