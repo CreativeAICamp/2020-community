@@ -6,6 +6,7 @@ $menus = [
     ['title' => 'Characters', 'url' => 'character.php', 'active' => false],
     ['title' => 'Store', 'url' => 'store.php', 'active' => false],
     ['title' => 'Fighting', 'url' => 'game.php', 'active' => true],
+    ['title' => 'Pie', 'url' => 'pie.php', 'active' => false],
 ];
 include_once('header.php');
 ?>
