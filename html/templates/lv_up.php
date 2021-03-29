@@ -50,9 +50,20 @@ include_once('header.php');
             },
             zoom: 19,
         });
+        for (let i = 0; i < features.length; i++) {
+            const marker = new google.maps.Marker({
+                position: features[i].position,
+                icon: icons[features[i].type].icon,
+                map: map,
+            });
+
+            google.maps.event.addListener(marker, 'click', function() {
+                window.location.href = 'promotion.php';
+            });
+        }
     }
 
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap" async></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8Too94E9gsDi-PwS8sb-NA7zbMc8uR5w&callback=initMap" async></script>
 <?php
 include_once('end.php');
