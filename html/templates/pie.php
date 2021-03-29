@@ -6,6 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Pie</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.3.2.js"></script>
 
   <link href="dist/css/vendor/normalize.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="dist/css/vendor/foundation.css" media="screen" rel="stylesheet" type="text/css" />
