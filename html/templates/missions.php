@@ -18,7 +18,7 @@ include_once('header.php');
             <div class="card shadow-sm p-3">
                 <div class="d-flex justify-content-between">
                     <div class="flex-grow-1 align-self-center d-flex flex-row align-items-center">
-                        <img src="img/Mascot_Lop.png" class="rounded" />
+                        <a href="review.php"><img src="img/Mascot_Lop.png" class="rounded"/></a>
                         <div class="ml-4">
                             <h3>Lopbuu</h3>
                             <div>

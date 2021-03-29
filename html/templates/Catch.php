@@ -61,7 +61,7 @@ include_once('header.php');
 <div class="whiteBox2">
     <div class="feed">
         <div class="flipV">
-            <h3 class="my-0">Feed</h3>
+            <a href="success.php"><h3 class="my-0">Feed</h3></a>
         </div>
     </div>
     <div class="l">
@@ -77,6 +77,7 @@ include_once('header.php');
         <p class="my-0">x0</p>
     </div>
 </div>
+    <?php include_once('video.php'); ?>
     <?php include_once('footer.php'); ?>
 
 <?php

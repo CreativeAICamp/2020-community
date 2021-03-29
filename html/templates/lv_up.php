@@ -32,10 +32,6 @@ include_once('header.php');
                             <h4>Level: 2</h4>
                         </div>
                     </div>
-                    <div class="flex-fill column-right">
-                        <h3>Promotion</h3>
-                        <div class="promotion">Discount: 2%</div>
-                    </div>
                 </div>
             </div>
         </div>

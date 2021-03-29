@@ -9,7 +9,7 @@ $menus = [
 ];
 include_once('header.php');
 ?>
-<div class="pic"><img src="img/game.jpg" alt="" width="100%"></div>
+<div class="pic"><a href="lv_up.php"><img src="img/game.jpg" alt="" width="100%"></a></div>
 
 <?php include_once('footer.php'); ?>
 
