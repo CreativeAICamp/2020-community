@@ -30,7 +30,7 @@ include_once('header.php');
                 <div class="text">
                     <a1 class="name">Oishi</a1>
                     <a2 class="discount">Discount 5 Bath/bottle</a2>
-                    <a3 class="more">Any favour</a3>
+                    <a3 class="more">Any flavour</a3>
                 </div>
                 <div class="click">
                     <button class="btn btn-success">1 coupon</button>
@@ -51,7 +51,7 @@ include_once('header.php');
                 <div class="text3">
                     <c1 class="name3">Pasteurized Milk Tea</c1>
                     <c2 class="discount3">Discount 5 Bath/bottle</c2>
-                    <c3 class="more3">Any favour</c3>
+                    <c3 class="more3">Any flavour</c3>
                 </div>
                 <div class="click3">
                     <button class="btn btn-success">1 coupon</button>
@@ -70,7 +70,7 @@ include_once('header.php');
                     <img src="img/Dump_pings.png" alt="">
                 </div>
                 <div class="text5">
-                    <e1 class="name5">Dump Plings</e1>
+                    <e1 class="name5">Dumplings</e1>
                     <e2 class="discount5">Discount 5 Bath/2 pieces</e2>
                 </div>
                 <div class="click5">
