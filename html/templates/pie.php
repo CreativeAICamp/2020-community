@@ -69,12 +69,13 @@ $cluster05= 20;
 
   <div class="row">
     <div class="large-4 small-4 columns">
-      <ul data-pie-id="pie">
-        <li data-value="<?php echo $cluster01; ?>">cluster01</li>
-        <li data-value="<?php echo $cluster02; ?>">cluster02</li>
-        <li data-value="<?php echo $cluster03; ?>">cluster03</li>
-        <li data-value="<?php echo $cluster04; ?>">cluster04</li>
-        <li data-value="<?php echo $cluster05; ?>">cluster05</li>
+      <h3 class="mt-4">Customer Segments</h3>
+      <ul class="list-group ml-0" data-pie-id="pie">
+        <li class="list-group-item bg-light" data-value="<?php echo $cluster01; ?>">cluster01</li>
+        <li class="list-group-item bg-light" data-value="<?php echo $cluster02; ?>">cluster02</li>
+        <li class="list-group-item bg-light" data-value="<?php echo $cluster03; ?>">cluster03</li>
+        <li class="list-group-item bg-light" data-value="<?php echo $cluster04; ?>">cluster04</li>
+        <li class="list-group-item bg-light" data-value="<?php echo $cluster05; ?>">cluster05</li>
       </ul>
     </div>
     <div class="large-8 small-8 columns">
