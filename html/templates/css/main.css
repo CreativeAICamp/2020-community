@@ -137,7 +137,7 @@ main > .content {
   width: 100%;
   background-color: #fff;
   right: 0;
-  height:100%;
+  height:90%;
 }
 .promo .logo {
   position: absolute;
@@ -169,6 +169,8 @@ font-style: normal;
 font-weight: normal;
 font-size: 36px;
 line-height: 36px;
+margin-top: 30px;
+font-weight: bold;
 
 color: #249445;
 }
@@ -176,14 +178,14 @@ color: #249445;
   position: absolute;
   height: 65px;
   left: 10%;
-  top: 19%;
+  top: 26%;
 
 }
 .promo .text .name{
   position: absolute;
   height: 15px;
   left: 30%;
-  top: 20%;
+  top: 26%;
   font-family: SeoulNamsan CEB;
   font-style: normal;
   font-weight: normal;
@@ -195,7 +197,7 @@ color: #249445;
   position: absolute;
   height: 16px;
   left: 30%;
-  top: 22%;
+  top: 29%;
   font-family: SeoulNamsan CM;
   font-style: normal;
   font-weight: normal;
@@ -207,7 +209,7 @@ color: #249445;
   position: absolute;
 height: 15px;
 left: 30%;
-  top: 24%;
+  top: 31%;
 
 font-family: SeoulNamsan CM;
 font-style: normal;
@@ -221,41 +223,10 @@ color: #A8A8A8;
   position: absolute;
   height: 65px;
   left: 10%;
-  top: 30%;
+  top: 40%;
 
 }
 .promo .text2 .name2{
-  position: absolute;
-  height: 15px;
-  left: 30%;
-  top: 31%;
-  font-family: SeoulNamsan CEB;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 18px;
-  color: #393939;
-}
-.promo .text2 .discount2{
-  position: absolute;
-  height: 16px;
-  left: 30%;
-  top: 33%;
-  font-family: SeoulNamsan CM;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 14px;
-  color: #393939;
-}
-.promo .milk{
-  position: absolute;
-  height: 65px;
-  left: 10%;
-  top: 39%;
-
-}
-.promo .text3 .name3{
   position: absolute;
   height: 15px;
   left: 30%;
@@ -267,11 +238,42 @@ color: #A8A8A8;
   line-height: 18px;
   color: #393939;
 }
+.promo .text2 .discount2{
+  position: absolute;
+  height: 16px;
+  left: 30%;
+  top: 43%;
+  font-family: SeoulNamsan CM;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #393939;
+}
+.promo .milk{
+  position: absolute;
+  height: 65px;
+  left: 10%;
+  top: 54%;
+
+}
+.promo .text3 .name3{
+  position: absolute;
+  height: 15px;
+  left: 30%;
+  top: 54%;
+  font-family: SeoulNamsan CEB;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #393939;
+}
 .promo .text3 .discount3{
   position: absolute;
   height: 16px;
   left: 30%;
-  top: 42%;
+  top: 57%;
   font-family: SeoulNamsan CM;
   font-style: normal;
   font-weight: normal;
@@ -284,7 +286,7 @@ color: #A8A8A8;
 
 height: 15px;
 left: 30%;
-  top: 44%;
+  top: 59%;
 
 font-family: SeoulNamsan CM;
 font-style: normal;
@@ -298,14 +300,14 @@ color: #A8A8A8;
   position: absolute;
   height: 65px;
   left: 10%;
-  top: 50%;
+  top: 68%;
 
 }
 .promo .text4 .name4{
   position: absolute;
   height: 15px;
   left: 30%;
-  top: 51%;
+  top: 68%;
   font-family: SeoulNamsan CEB;
   font-style: normal;
   font-weight: normal;
@@ -317,7 +319,7 @@ color: #A8A8A8;
   position: absolute;
   height: 16px;
   left: 30%;
-  top: 53%;
+  top: 71%;
   font-family: SeoulNamsan CM;
   font-style: normal;
   font-weight: normal;
@@ -330,14 +332,14 @@ color: #A8A8A8;
   width: 65px;
   height: 65px;
   left: 10%;
-  top: 61%;
+  top: 82%;
 
 }
 .promo .text5 .name5{
   position: absolute;
   height: 15px;
   left: 30%;
-  top: 62%;
+  top: 82%;
   font-family: SeoulNamsan CEB;
   font-style: normal;
   font-weight: normal;
@@ -349,7 +351,7 @@ color: #A8A8A8;
   position: absolute;
   height: 16px;
   left: 30%;
-  top: 64%;
+  top: 85%;
   font-family: SeoulNamsan CM;
   font-style: normal;
   font-weight: normal;
@@ -362,35 +364,35 @@ color: #A8A8A8;
   width: 102px;
   height: 31px;
   left: 80%;
-  top: 19%;
+  top: 26%;
 }
 .promo .click2{
   position: absolute;
   width: 102px;
   height: 31px;
   left: 80%;
-  top: 30%;
+  top: 40%;
 }
 .promo .click3{
   position: absolute;
   width: 102px;
   height: 31px;
   left: 80%;
-  top: 41%;
+  top: 54%;
 }
 .promo .click4{
   position: absolute;
   width: 102px;
   height: 31px;
   left: 80%;
-  top: 52%;
+  top: 68%;
 }
 .promo .click5{
   position: absolute;
   width: 102px;
   height: 31px;
   left: 80%;
-  top: 63%;
+  top: 82%;
   border-radius: 5px;
 }
 .promo .po1{
@@ -537,8 +539,4 @@ color: #A8A8A8;
 .promo .menu_button .sakha{
   margin-top: 20px;
   margin-left: 55px;
-}
-.promo .coupon{
-  margin-top: 30px;
-  font-weight: bold;
 }
