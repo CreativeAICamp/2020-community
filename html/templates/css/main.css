@@ -530,4 +530,15 @@ color: #A8A8A8;
   border-radius: 8px;
 }
 
-
+.promo .menu_button .logo{
+  margin-top: 5px;
+  margin-left: 50px;
+}
+.promo .menu_button .sakha{
+  margin-top: 20px;
+  margin-left: 55px;
+}
+.promo .coupon{
+  margin-top: 30px;
+  font-weight: bold;
+}
