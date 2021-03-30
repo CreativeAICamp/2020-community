@@ -35,7 +35,7 @@ include_once('header.php');
                             <p class="m-0">อำเภอเมืองลพบุรี</p>
                             <p class="m-0">ลพบุรี 15000</p>
                         </div>
-                        <button style="margin-top: 20%" class="btn btn-success">Let's travel</button>
+                        <button style="position: absolute; bottom: 100px;" class="btn btn-success">Let's travel</button>
                     </div>
                     <div style="width: 20%" class="border-left px-3">
                         <h4>King Narai the Great Monument</h4>
@@ -44,9 +44,9 @@ include_once('header.php');
                             <p class="m-0">อำเภอเมือง</p>
                             <p class="m-0">ลพบุรี 15000</p>
                         </div>
-                        <button class="btn btn-success" style="position: absolute; bottom: 15px;">Let's travel</button>
+                        <button class="btn btn-success" style="position: absolute; bottom: 100px;">Let's travel</button>
                     </div>
-                    <div style="width: 20%" class="border-left px-3 d-flex flex-column justify-content-between">
+                    <div style="width: 20%" class="border-left px-3 ">
                         <!-- Wrapper block #1 -->
                         <div>
                             <h4>Wat Kaow Wong Pra Jan</h4>
@@ -58,7 +58,7 @@ include_once('header.php');
                         </div>
                         <!-- Wrapper block #2 -->
                         <div>
-                            <button class="btn btn-success">Let's travel</button>
+                            <button class="btn btn-success" style="position: absolute; bottom: 100px;">Let's travel</button>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ include_once('header.php');
                             <p class="m-0">อำเภอเมือง</p>
                             <p class="m-0">เชียงใหม่ 50200</p>
                         </div>
-                        <button style="margin-top: 10%" class="btn btn-success">Let's travel</button>
+                        <button style="position: absolute; bottom: 100px;" class="btn btn-success">Let's travel</button>
                     </div>
                     <div style="width: 20%" class="border-left px-3">
                         <h4>Tha Non Khon Dean Tha Pea</h4>
@@ -93,7 +93,7 @@ include_once('header.php');
                             <p class="m-0">อำเภอเมือง</p>
                             <p class="m-0">เชียงใหม่ 50200</p>
                         </div>
-                        <button style="margin-top: 10%" class="btn btn-success">Let's travel</button>
+                        <button style="position: absolute; bottom: 100px;" class="btn btn-success">Let's travel</button>
                     </div>
                     <div style="width: 20%" class="border-left px-3">
                         <h4>Doi Inthanon</h4>
@@ -102,7 +102,7 @@ include_once('header.php');
                             <p class="m-0">อำเภอจอมทอง</p>
                             <p class="m-0">เชียงใหม่ 50270</p>
                         </div>
-                        <button style="margin-top: 20%" class="btn btn-success">Let's travel</button>
+                        <button style="position: absolute; bottom: 100px;" class="btn btn-success">Let's travel</button>
                     </div>
 
 
@@ -129,7 +129,7 @@ include_once('header.php');
                             <p class="m-0">อำเภอเมือง</p>
                             <p class="m-0">เชียงใหม่ 50200</p>
                         </div>
-                        <button style="margin-top: 10%" class="btn btn-success disabled">Success</button>
+                        <button style="position: absolute; bottom: 100px;" class="btn btn-success disabled">Success</button>
                     </div>
                     <div style="width: 20%" class="border-left px-3">
                         <h4>Tha Non Khon Dean Tha Pea</h4>
@@ -138,7 +138,7 @@ include_once('header.php');
                             <p class="m-0">อำเภอเมือง</p>
                             <p class="m-0">เชียงใหม่ 50200</p>
                         </div>
-                        <button style="margin-top: 10%" class="btn btn-success disabled">Success</button>
+                        <button style="position: absolute; bottom: 100px;" class="btn btn-success disabled">Success</button>
                     </div>
                     <div style="width: 20%" class="border-left px-3">
                         <h4>Doi Inthanon</h4>
@@ -147,7 +147,7 @@ include_once('header.php');
                             <p class="m-0">อำเภอจอมทอง</p>
                             <p class="m-0">เชียงใหม่ 50270</p>
                         </div>
-                        <button style="margin-top: 20%" class="btn btn-success disabled">Success</button>
+                        <button style="position: absolute; bottom: 100px;" class="btn btn-success disabled">Success</button>
                     </div>
 
 
