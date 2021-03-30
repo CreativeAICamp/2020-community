@@ -435,6 +435,8 @@ color: #A8A8A8;
   }
 }
 
+
+/*Catch*/
 .success {
   position: absolute;
   width: 20%;
@@ -532,6 +534,13 @@ color: #A8A8A8;
   border-radius: 8px;
 }
 
+.t{
+  margin-top: 20px;
+  margin-left: 5%;
+  position: relative;
+  float: left;
+}
+
 .promo .menu_button .logo{
   margin-top: 5px;
   margin-left: 50px;
@@ -539,4 +548,89 @@ color: #A8A8A8;
 .promo .menu_button .sakha{
   margin-top: 20px;
   margin-left: 55px;
+}
+
+@media (max-width: 800px) {
+  .success {
+    position: absolute;
+    width: 43%;
+    height: 19%;
+    font-size: 85%;
+  
+    text-align: center;
+    color: white;
+    line-height: 2;
+
+    background: rgba(0, 0, 0, 0.52);
+    border-radius: 20px;
+  
+    margin-top: 2%;
+    margin-left: 104%;
+  }
+
+  h5 {
+    font-size: 105%;
+  }
+
+  h4 {
+    font-size: 120%;
+  }
+
+  .l{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 5%;
+    position: relative;
+    float: left;
+  }
+
+  .t{
+    margin-top: 5px;
+    margin-left: 5%;
+    position: relative;
+    float: left;
+  }
+  
+  .whiteBox{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    background: rgba(255, 255, 255);
+    border-radius: 10px;
+  
+    margin-top: 85%;
+    margin-left: 55%;
+  
+    text-align: center;
+    font-size: 70%;
+  }
+  
+  .whiteBox2{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    background: rgba(255, 255, 255);
+    border-radius: 10px;
+  
+    margin-top: 105%;
+    margin-left: 55%;
+  
+    text-align: center;
+    font-size: 70%;
+  }
+  
+  .question{
+    position: absolute;
+    width: 40px;
+    text-align: center;
+    color: white;
+  
+    margin-top: 2%;
+    margin-left: 49%;
+    
+    background: linear-gradient(180deg, #E7BA86 0%, #E2E463 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+  }
+
 }

@@ -11,8 +11,8 @@
         <a-image 
             src="img/Mascot_Lop.png"
             look-at="[gps-camera]"
-            scale="5 5 5"
-            gps-entity-place="latitude: 18.749340; longitude: 98.968843;"
+            scale="1.5 1.5 1.5"
+            gps-entity-place="latitude: 13.977579; longitude: 100.504955;"
         ></a-image>
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>

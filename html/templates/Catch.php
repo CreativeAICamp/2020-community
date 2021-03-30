@@ -12,10 +12,10 @@ $menus = [
 include_once('header.php');
 ?>
     <div class="success">
-    <div class="textHeight">
-        <h5 class="my-0">Phra Prang Sam Yot</h5>
-        <p class="my-0">Successed : 50%</p>
-    </div>
+        <div class="textHeight">
+            <h5 class="my-0">Phra Prang Sam Yot</h5>
+            <p class="my-0">Successed : 50%</p>
+        </div>
     <div>
     <tr>
         <td>
@@ -45,13 +45,13 @@ include_once('header.php');
     <div class="l">
         <h4 class="my-0">Selected :</h4>
     </div>
-    <div class="l">
-        <button><img src="img/mango-with-sticky-rice.png"></botton>
+    <div class="t">
+        <img src="img/mango-with-sticky-rice.png">
     </div>
     <div class="l">
         <p class="my-0">x0</p>
     </div>
-    <div class="l">
+    <div class="t">
         <img src="img/Thai dessert_black.white.png">
     </div>
     <div class="l">
@@ -65,20 +65,20 @@ include_once('header.php');
             <a href="success.php"><h3 class="my-0">Feed</h3></a>
         </div>
     </div>
-    <div class="l">
-        <button><img src="img/mango-with-sticky-rice.png"></botton>
+    <div class="t">
+        <img src="img/mango-with-sticky-rice.png">
     </div>
     <div class="l">
         <p class="my-0">x0</p>
     </div>
-    <div class="l">
+    <div class="t">
         <img src="img/Thai dessert_black.white.png">
     </div>
     <div class="l">
         <p class="my-0">x0</p>
     </div>
 </div>
-    <?php include_once('video.php'); ?>
+    <?php include_once('ar-camera.php'); ?>
     <?php include_once('footer.php'); ?>
 
 <?php
