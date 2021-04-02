@@ -49,20 +49,24 @@ include_once('header.php');
         };
         const features = [
             {
-                position: new google.maps.LatLng(7.950797, 98.28318424),
+                position: new google.maps.LatLng(7.950797, 98.28318424),//เชียงใหม่
                 type: "logo1",
+                link:'promotion2.php',   
             },
             {
-                position: new google.maps.LatLng(16.439625, 102.828728),
+                position: new google.maps.LatLng(16.439625, 102.828728),//ขอนแก่น
                 type: "logo2",
+                link:'promotion2.php',   
             },
             {
-                position: new google.maps.LatLng(13.7276256, 100.5324386),
+                position: new google.maps.LatLng(13.7276256, 100.5324386),//กรุงเทพ
                 type: "logo3",
+                link:'promotion.php',
             },
             {
-                position: new google.maps.LatLng(18.743760777, 99.07700569),
+                position: new google.maps.LatLng(18.743760777, 99.07700569),//ภูเก็ต
                 type: "logo4",
+                link:'promotion2.php',   
             },
         ];
 
@@ -74,7 +78,8 @@ include_once('header.php');
             });
 
             google.maps.event.addListener(marker, 'click', function() {
-                window.location.href = 'promotion.php';
+                window.location.href = features[i].link;
+
             });
         }
     }
