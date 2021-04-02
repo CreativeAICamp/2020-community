@@ -12,7 +12,7 @@
             src="img/Mascot_Lop.png"
             look-at="[gps-camera]"
             scale="1.5 1.5 1.5"
-            gps-entity-place="latitude: 13.977579; longitude: 100.504955;"
+            gps-entity-place="latitude: 13.729638; longitude: 100.530141;"
         ></a-image>
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
